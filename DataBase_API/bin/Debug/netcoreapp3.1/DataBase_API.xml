@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataBase_API</name>
+    </assembly>
+    <members>
+        <member name="T:DataBase.Controllers.WeatherForecastController">
+            <summary>
+            测试类型数据
+            </summary>
+        </member>
+        <member name="M:DataBase.Controllers.WeatherForecastController.Get">
+            <summary>
+            静态数据
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

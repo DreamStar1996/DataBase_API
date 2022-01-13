@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DataBase_API;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+//using StackExchange.Profiling;
 
-namespace DataBase_API.Controllers
+namespace DataBase.Controllers
 {
+    /// <summary>
+    /// 测试类型数据
+    /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -23,9 +28,15 @@ namespace DataBase_API.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// 静态数据
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            //using (MiniProfiler.Current.Step("开始加载数据"))
+            //{
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
@@ -34,6 +45,19 @@ namespace DataBase_API.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+            //}
         }
+
+        /// <summary>
+        /// 获取html片段
+        /// </summary>
+        /// <returns></returns>
+        //[HttpGet]
+        //[Route("GetHtml")]
+        //public IActionResult GetHtml()
+        //{
+        //    var html = MiniProfiler.Current.RenderIncludes(HttpContext);
+        //    return Ok(html.Value);
+        //}
     }
 }
