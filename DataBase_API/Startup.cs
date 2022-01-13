@@ -4,10 +4,12 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using Domain;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -71,6 +73,15 @@ namespace DataBase_API
 
             services.AddControllers();
             services.AddHttpContextAccessor();
+            services.AddDbContext<DbContextBase>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("SqlServverDefault"), aa =>
+                {
+                    aa.CommandTimeout(900);
+                });
+                options.EnableSensitiveDataLogging().EnableDetailedErrors();
+            }, ServiceLifetime.Scoped);
+
             services.AddControllersWithViews();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
