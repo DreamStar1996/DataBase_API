@@ -1,0 +1,9 @@
+D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.csprojAssemblyReference.cache
+D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.AssemblyInfoInputs.cache
+D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.AssemblyInfo.cs
+D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.RazorTargetAssemblyInfo.cache
+D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\staticwebassets\DataBase_API.StaticWebAssets.Manifest.cache
+D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\staticwebassets\DataBase_API.StaticWebAssets.xml

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y/rJIErrYlyR4c0NhsdM0xvfzUIZA/Hs9NiiwNZ00lNX/KwcDL07Ozfpma8RUWD3zkmHDuZ6RfvTkOQ3hvJGRQ==",
+  "success": true,
+  "projectFilePath": "D:\\Test_Program\\DataBase_API\\DataBase_API\\DataBase_API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\7000020126\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
