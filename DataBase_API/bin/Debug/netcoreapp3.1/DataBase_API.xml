@@ -15,5 +15,11 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:DataBase.Controllers.WeatherForecastController.GetHtml">
+            <summary>
+            获取html片段
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>

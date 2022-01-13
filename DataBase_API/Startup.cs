@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using StackExchange.Profiling.Storage;
 
 namespace DataBase_API
 {
@@ -35,6 +36,18 @@ namespace DataBase_API
                     builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()
                 );
             });
+
+            //AddEntityFramework是要监控EntityFrameworkCore生成的SQL
+            services.AddMiniProfiler(options =>
+            {
+                options.RouteBasePath = "/profiler";
+                (options.Storage as MemoryCacheStorage).CacheDuration = TimeSpan.FromMinutes(60);
+                options.SqlFormatter = new StackExchange.Profiling.SqlFormatters.InlineFormatter();
+                options.TrackConnectionOpenClose = true;
+                options.ColorScheme = StackExchange.Profiling.ColorScheme.Auto;
+                options.EnableMvcFilterProfiling = true;
+                options.EnableMvcViewProfiling = true;
+            }).AddEntityFramework();
 
             #region 添加Swagger
             services.AddSwaggerGen(c =>
@@ -72,6 +85,8 @@ namespace DataBase_API
             }
 
             app.UseHttpsRedirection();
+
+            app.UseMiniProfiler();
 
             // 添加Swagger有关中间件
             app.UseSwagger(c =>

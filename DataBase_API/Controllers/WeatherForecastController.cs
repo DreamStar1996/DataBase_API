@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using DataBase_API;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-//using StackExchange.Profiling;
+using StackExchange.Profiling;
 
 namespace DataBase.Controllers
 {
@@ -52,12 +52,12 @@ namespace DataBase.Controllers
         /// 获取html片段
         /// </summary>
         /// <returns></returns>
-        //[HttpGet]
-        //[Route("GetHtml")]
-        //public IActionResult GetHtml()
-        //{
-        //    var html = MiniProfiler.Current.RenderIncludes(HttpContext);
-        //    return Ok(html.Value);
-        //}
+        [HttpGet]
+        [Route("GetHtml")]
+        public IActionResult GetHtml()
+        {
+            var html = MiniProfiler.Current.RenderIncludes(HttpContext);
+            return Ok(html.Value);
+        }
     }
 }
