@@ -73,14 +73,14 @@ namespace DataBase_API
 
             services.AddControllers();
             services.AddHttpContextAccessor();
-            services.AddDbContext<DbContextBase>(options =>
-            {
-                options.UseSqlServer(Configuration.GetConnectionString("SqlServverDefault"), aa =>
-                {
-                    aa.CommandTimeout(900);
-                });
-                options.EnableSensitiveDataLogging().EnableDetailedErrors();
-            }, ServiceLifetime.Scoped);
+            //services.AddDbContext<DbContextBase>(options =>
+            //{
+            //    options.UseSqlServer(Configuration.GetConnectionString("SqlServverDefault"), aa =>
+            //    {
+            //        aa.CommandTimeout(900);
+            //    });
+            //    options.EnableSensitiveDataLogging().EnableDetailedErrors();
+            //}, ServiceLifetime.Scoped);
 
             services.AddControllersWithViews();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
