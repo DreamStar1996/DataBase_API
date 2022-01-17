@@ -68,4 +68,4 @@ stages:
             inputs:
               azureSubscription: Devlops Data
               appName: $(Devlops_Test)
-              package: $(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip
+              package: $(System.DefaultWorkingDirectory)/**/*.zip
