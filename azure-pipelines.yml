@@ -64,8 +64,8 @@ stages:
           - download: current
             artifact: drop
           - task: AzureWebApp@1
-            displayName: 'Azure App Service Deploy: website'
             inputs:
-              azureSubscription: Devlops Data
-              appName: $(Devlops_Test)
-              package: $(System.DefaultWorkingDirectory)/**/*.zip
+              azureSubscription: 'Devlops Data'
+              appType: 'webAppLinux'
+              appName: 'devlops-test'
+              package: '$(System.DefaultWorkingDirectory)/**/*.zip'
