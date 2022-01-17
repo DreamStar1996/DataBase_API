@@ -68,4 +68,4 @@ stages:
               azureSubscription: 'Devlops Data'
               appType: 'webAppLinux'
               appName: 'devlops-test'
-              package: '$(System.DefaultWorkingDirectory)/**/DataBase_API.zip'
+              package: '$(System.DefaultWorkingDirectory)/Release/DataBase_API.zip'
