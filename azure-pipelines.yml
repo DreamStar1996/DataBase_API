@@ -16,8 +16,6 @@ stages:
     displayName: Build job
     pool:
       vmImage: ubuntu-20.04
-      demands:
-      - npm
     variables:
       wwwrootDir: DataBase_API/wwwroot
       dotnetSdkVersion: 5.x
