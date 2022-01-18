@@ -4,6 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 ### YamlMime:Yaml
+trigger:
+- '*'
+variables:
+  buildConfiguration: Release
 stages:
 - stage: Build
   displayName: Build the web application
@@ -15,7 +19,7 @@ stages:
       demands:
       - npm
     variables:
-      dotnetSdkVersion: 3.x
+      dotnetSdkVersion: 5.x
     steps:
     - task: UseDotNet@2
       displayName: Use .NET SDK $(dotnetSdkVersion)
@@ -42,3 +46,25 @@ stages:
         zipAfterPublish: true
     - publish: $(Build.ArtifactStagingDirectory)
       artifact: drop
+- stage: Deploy
+  displayName: Deploy the web application
+  dependsOn: Build
+  jobs:
+  - deployment: Deploy
+    pool:
+      vmImage: ubuntu-20.04
+    environment: Dev
+    variables:
+    - group: Release
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - download: current
+            artifact: drop
+          - task: AzureWebApp@1
+            displayName: 'Azure App Service Deploy: website'
+            inputs:
+              azureSubscription: Devops Azure-Program
+              appName: $(AzureDev)
+              package: $(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip
