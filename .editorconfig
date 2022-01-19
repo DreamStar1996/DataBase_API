@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# AI_A000: Aspect should contain effect
+dotnet_diagnostic.AI_A000.severity = none
