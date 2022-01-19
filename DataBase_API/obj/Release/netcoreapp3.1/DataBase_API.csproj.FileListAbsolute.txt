@@ -80,4 +80,4 @@ D:\Test_Program\DataBase_API\DataBase_API\obj\Release\netcoreapp3.1\staticwebass
 D:\Test_Program\DataBase_API\DataBase_API\obj\Release\netcoreapp3.1\DataBase_API.dll
 D:\Test_Program\DataBase_API\DataBase_API\obj\Release\netcoreapp3.1\DataBase_API.pdb
 D:\Test_Program\DataBase_API\DataBase_API\obj\Release\netcoreapp3.1\DataBase_API.genruntimeconfig.cache
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\database-test-dev - Web Deploy\profile.arm.json
+D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\database-dev - Web Deploy\profile.arm.json
