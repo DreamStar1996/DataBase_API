@@ -1,9 +1,0 @@
-D:\Test_Program\DataBase_API\Domain\bin\Release\netcoreapp3.1\Domain.deps.json
-D:\Test_Program\DataBase_API\Domain\bin\Release\netcoreapp3.1\Domain.dll
-D:\Test_Program\DataBase_API\Domain\bin\Release\netcoreapp3.1\Domain.pdb
-D:\Test_Program\DataBase_API\Domain\obj\Release\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-D:\Test_Program\DataBase_API\Domain\obj\Release\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-D:\Test_Program\DataBase_API\Domain\obj\Release\netcoreapp3.1\Domain.AssemblyInfo.cs
-D:\Test_Program\DataBase_API\Domain\obj\Release\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-D:\Test_Program\DataBase_API\Domain\obj\Release\netcoreapp3.1\Domain.dll
-D:\Test_Program\DataBase_API\Domain\obj\Release\netcoreapp3.1\Domain.pdb

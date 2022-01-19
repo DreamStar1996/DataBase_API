@@ -1,0 +1,27 @@
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\appsettings.json
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\database-devlops - Web Deploy\profile.arm.json
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\DataBase_Dev.exe
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\DataBase_Dev.deps.json
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\DataBase_Dev.runtimeconfig.json
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\DataBase_Dev.runtimeconfig.dev.json
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\DataBase_Dev.dll
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\DataBase_Dev.pdb
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.csprojAssemblyReference.cache
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.AssemblyInfoInputs.cache
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.AssemblyInfo.cs
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.csproj.CoreCompileInputs.cache
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.MvcApplicationPartsAssemblyInfo.cs
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.MvcApplicationPartsAssemblyInfo.cache
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.RazorTargetAssemblyInfo.cache
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.csproj.CopyComplete
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\staticwebassets\DataBase_Dev.StaticWebAssets.Manifest.cache
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\staticwebassets\DataBase_Dev.StaticWebAssets.xml
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.dll
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.pdb
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.genruntimeconfig.cache
