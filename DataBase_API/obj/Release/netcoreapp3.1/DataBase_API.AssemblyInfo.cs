@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ef23c851-8d0a-4bb3-b945-ced53ded64e8")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("DataBase_API")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("XingChen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]

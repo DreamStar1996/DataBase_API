@@ -81,3 +81,4 @@ D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\staticwebasset
 D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.dll
 D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.pdb
 D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.genruntimeconfig.cache
+D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\database-dev - Web Deploy\profile.arm.json
