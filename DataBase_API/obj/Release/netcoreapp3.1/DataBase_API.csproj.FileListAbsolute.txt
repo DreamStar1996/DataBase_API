@@ -8,11 +8,6 @@ D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\DataBase_API
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\DataBase_API.runtimeconfig.dev.json
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\DataBase_API.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\DataBase_API.pdb
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\BouncyCastle.Crypto.dll
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Google.Protobuf.dll
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\K4os.Compression.LZ4.dll
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\K4os.Hash.xxHash.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
@@ -47,9 +42,6 @@ D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\MiniProfiler
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\MiniProfiler.AspNetCore.Mvc.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\MiniProfiler.EntityFrameworkCore.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\MiniProfiler.Shared.dll
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\MySql.Data.dll
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Ubiety.Dns.Core.dll
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\ZstdNet.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\MySqlConnector.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Newtonsoft.Json.Bson.dll
@@ -64,7 +56,6 @@ D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\System.Confi
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
@@ -89,3 +80,4 @@ D:\Test_Program\DataBase_API\DataBase_API\obj\Release\netcoreapp3.1\staticwebass
 D:\Test_Program\DataBase_API\DataBase_API\obj\Release\netcoreapp3.1\DataBase_API.dll
 D:\Test_Program\DataBase_API\DataBase_API\obj\Release\netcoreapp3.1\DataBase_API.pdb
 D:\Test_Program\DataBase_API\DataBase_API\obj\Release\netcoreapp3.1\DataBase_API.genruntimeconfig.cache
+D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\database-test-dev - Web Deploy\profile.arm.json
