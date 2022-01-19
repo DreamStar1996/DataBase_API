@@ -111,10 +111,10 @@ namespace DataBase_API
             app.UseSwaggerUI(c =>
             {
                 c.IndexStream = () => GetType().GetTypeInfo().Assembly.GetManifestResourceStream("DataBase_API.index.html");
-                //c.RoutePrefix = string.Empty;     //如果是为空 访问路径就为 根域名/index.html,注意localhost:8001/swagger是访问不到的
+                c.RoutePrefix = string.Empty;     //如果是为空 访问路径就为 根域名/index.html,注意localhost:8001/swagger是访问不到的
                 c.SwaggerEndpoint($"/swagger/V1/swagger.json", $"XUnit.Core V1");
                 //路径配置，设置为空，表示直接在根域名（localhost:8001）访问该文件
-                //c.RoutePrefix = "swagger"; // 如果你想换一个路径，直接写名字即可，比如直接写c.RoutePrefix = "swagger"; 则访问路径为 根域名/swagger/index.html
+                c.RoutePrefix = "swagger"; // 如果你想换一个路径，直接写名字即可，比如直接写c.RoutePrefix = "swagger"; 则访问路径为 根域名/swagger/index.html
             });
 
             app.UseRouting();
