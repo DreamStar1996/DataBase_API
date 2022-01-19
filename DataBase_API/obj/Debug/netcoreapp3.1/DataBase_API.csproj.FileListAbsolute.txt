@@ -37,3 +37,4 @@ D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.M
 D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.MvcApplicationPartsAssemblyInfo.cache
 D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\index.html
 D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\database-devlops - Web Deploy\profile.arm.json
+D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\web.config
