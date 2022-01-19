@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DataBase_API;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using StackExchange.Profiling;
 
-namespace DataBase.Controllers
+namespace DataBase_API.Controllers
 {
     /// <summary>
     /// 测试类型数据
@@ -35,17 +34,17 @@ namespace DataBase.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            //using (MiniProfiler.Current.Step("开始加载数据"))
-            //{
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            using (MiniProfiler.Current.Step("开始加载数据"))
             {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
-            //}
+                var rng = new Random();
+                return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+                {
+                    Date = DateTime.Now.AddDays(index),
+                    TemperatureC = rng.Next(-20, 55),
+                    Summary = Summaries[rng.Next(Summaries.Length)]
+                })
+                .ToArray();
+            }
         }
 
         /// <summary>

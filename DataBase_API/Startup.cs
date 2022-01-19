@@ -4,12 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Domain;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -31,15 +29,17 @@ namespace DataBase_API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //配置跨域处理，允许所有来源
+
+            #region 配置跨域处理，允许所有来源
             services.AddCors(options =>
             {
                 options.AddPolicy("cors",
                     builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()
                 );
             });
+            #endregion
 
-            //AddEntityFramework是要监控EntityFrameworkCore生成的SQL
+            #region MiniProfiler配置
             services.AddMiniProfiler(options =>
             {
                 options.RouteBasePath = "/profiler";
@@ -50,6 +50,7 @@ namespace DataBase_API
                 options.EnableMvcFilterProfiling = true;
                 options.EnableMvcViewProfiling = true;
             }).AddEntityFramework();
+            #endregion
 
             #region 添加Swagger
             services.AddSwaggerGen(c =>
@@ -57,8 +58,8 @@ namespace DataBase_API
                 c.SwaggerDoc("V1", new OpenApiInfo
                 {
                     Version = "V1",   //版本 
-                    Title = $"XUnit.Core 接口文档-NetCore3.1",  //标题
-                    Description = $"XUnit.Core Http API V1",    //描述
+                    Title = $"DataBase 接口文档-NetCore3.1",  //标题
+                    Description = $"DataBase Https API V1",    //描述
                     Contact = new OpenApiContact { Name = "DreamStaro", Email = "", Url = new Uri("https://seachen.cn") },
                     License = new OpenApiLicense { Name = "DreamStaro许可证", Url = new Uri("https://seachen.cn") }
                 });
@@ -72,7 +73,9 @@ namespace DataBase_API
             #endregion
 
             services.AddControllers();
+
             services.AddHttpContextAccessor();
+
             //services.AddDbContext<DbContextBase>(options =>
             //{
             //    options.UseSqlServer(Configuration.GetConnectionString("SqlServverDefault"), aa =>
@@ -84,7 +87,6 @@ namespace DataBase_API
 
             services.AddControllersWithViews();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

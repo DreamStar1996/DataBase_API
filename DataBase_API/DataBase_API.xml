@@ -4,18 +4,18 @@
         <name>DataBase_API</name>
     </assembly>
     <members>
-        <member name="T:DataBase.Controllers.WeatherForecastController">
+        <member name="T:DataBase_API.Controllers.WeatherForecastController">
             <summary>
             测试类型数据
             </summary>
         </member>
-        <member name="M:DataBase.Controllers.WeatherForecastController.Get">
+        <member name="M:DataBase_API.Controllers.WeatherForecastController.Get">
             <summary>
             静态数据
             </summary>
             <returns></returns>
         </member>
-        <member name="M:DataBase.Controllers.WeatherForecastController.GetHtml">
+        <member name="M:DataBase_API.Controllers.WeatherForecastController.GetHtml">
             <summary>
             获取html片段
             </summary>
