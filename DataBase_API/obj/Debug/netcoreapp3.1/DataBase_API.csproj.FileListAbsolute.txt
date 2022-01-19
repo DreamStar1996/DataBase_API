@@ -23,7 +23,6 @@ D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\Microsoft.Exte
 D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.dll
 D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.pdb
 D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.genruntimeconfig.cache
-D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\database-user - Web Deploy\profile.arm.json
 D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\MiniProfiler.AspNetCore.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\MiniProfiler.AspNetCore.Mvc.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\MiniProfiler.Shared.dll
@@ -37,3 +36,4 @@ D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.c
 D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.MvcApplicationPartsAssemblyInfo.cs
 D:\Test_Program\DataBase_API\DataBase_API\obj\Debug\netcoreapp3.1\DataBase_API.MvcApplicationPartsAssemblyInfo.cache
 D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\index.html
+D:\Test_Program\DataBase_API\DataBase_API\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\database-devlops - Web Deploy\profile.arm.json

@@ -1,7 +1,6 @@
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\appsettings.Development.json
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\appsettings.json
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Properties\launchSettings.json
-D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\database-user - Web Deploy\profile.arm.json
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\DataBase_API.exe
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\DataBase_API.deps.json
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\DataBase_API.runtimeconfig.json
@@ -36,3 +35,4 @@ D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Newtonsoft.J
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Remotion.Linq.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\System.Interactive.Async.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\index.html
+D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\database-devlops - Web Deploy\profile.arm.json
