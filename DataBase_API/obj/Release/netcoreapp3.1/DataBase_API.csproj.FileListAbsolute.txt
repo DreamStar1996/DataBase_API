@@ -36,3 +36,4 @@ D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Remotion.Lin
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\System.Interactive.Async.dll
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\index.html
 D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\database-devlops - Web Deploy\profile.arm.json
+D:\Test_Program\DataBase_API\DataBase_API\bin\Release\netcoreapp3.1\web.config
