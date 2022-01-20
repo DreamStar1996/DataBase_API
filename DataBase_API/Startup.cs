@@ -58,10 +58,9 @@ namespace DataBase_API
                 c.SwaggerDoc("V1", new OpenApiInfo
                 {
                     Version = "V1",   //版本 
-                    Title = $"DataBase 接口文档-NetCore3.1",  //标题
+                    Title = $"DataBase-NetCore3.1",  //标题
                     Description = $"DataBase Https API V1",    //描述
-                    Contact = new OpenApiContact { Name = "DreamStaro", Email = "", Url = new Uri("https://seachen.cn") },
-                    License = new OpenApiLicense { Name = "DreamStaro许可证", Url = new Uri("https://seachen.cn") }
+                    Contact = new OpenApiContact { Name = "DreamStaro", Email = "", Url = new Uri("https://seachen.cn") }
                 });
                 // 获取xml文件名
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
