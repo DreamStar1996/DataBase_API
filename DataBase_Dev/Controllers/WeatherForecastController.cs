@@ -7,6 +7,9 @@ using Microsoft.Extensions.Logging;
 
 namespace DataBase_Dev.Controllers
 {
+    /// <summary>
+    /// Test Data
+    /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -23,6 +26,10 @@ namespace DataBase_Dev.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Test GetPush
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {

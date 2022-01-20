@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataBase_Dev</name>
+    </assembly>
+    <members>
+        <member name="T:DataBase_Dev.Controllers.WeatherForecastController">
+            <summary>
+            Test Data
+            </summary>
+        </member>
+        <member name="M:DataBase_Dev.Controllers.WeatherForecastController.Get">
+            <summary>
+            Test GetPush
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

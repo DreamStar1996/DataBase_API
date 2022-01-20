@@ -20,8 +20,10 @@ D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Debug\netcoreapp3.1\Microsoft.Open
 D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Debug\netcoreapp3.1\DataBase_Dev.csproj.CopyComplete
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\database-user - Web Deploy\profile.arm.json
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Debug\netcoreapp3.1\DataBase_Dev.xml
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
 D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Debug\netcoreapp3.1\DataBase_Dev.csproj.CoreCompileInputs.cache
 D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Debug\netcoreapp3.1\DataBase_Dev.MvcApplicationPartsAssemblyInfo.cs
 D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Debug\netcoreapp3.1\DataBase_Dev.MvcApplicationPartsAssemblyInfo.cache
-D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Debug\netcoreapp3.1\DataBase_Dev.csproj.CopyComplete
-D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\database-devlops - Web Deploy\profile.arm.json

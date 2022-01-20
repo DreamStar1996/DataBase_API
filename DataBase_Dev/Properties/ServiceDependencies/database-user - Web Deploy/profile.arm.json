@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "database-devlops",
+      "defaultValue": "database-user",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }

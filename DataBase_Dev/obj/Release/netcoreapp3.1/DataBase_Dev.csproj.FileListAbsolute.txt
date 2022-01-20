@@ -1,7 +1,6 @@
 D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\appsettings.Development.json
 D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\appsettings.json
 D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\Properties\launchSettings.json
-D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\database-devlops - Web Deploy\profile.arm.json
 D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\DataBase_Dev.exe
 D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\DataBase_Dev.deps.json
 D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\DataBase_Dev.runtimeconfig.json
@@ -25,3 +24,5 @@ D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\staticwebass
 D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.dll
 D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.pdb
 D:\Test_Program\DataBase_Dev\DataBase_Dev\obj\Release\netcoreapp3.1\DataBase_Dev.genruntimeconfig.cache
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\database-user - Web Deploy\profile.arm.json
+D:\Test_Program\DataBase_Dev\DataBase_Dev\bin\Release\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
